@@ -1,0 +1,22 @@
+package com.example.demo;
+
+import org.springframework.boot.SpringApplication;
+import org.springframework.boot.autoconfigure.SpringBootApplication;
+
+import Entity.Order;
+
+@SpringBootApplication
+public class WebServicesApplication {
+
+	public static void main(String[] args) {
+		SpringApplication.run(WebServicesApplication.class, args);
+		
+		Order order = new Order(12,"laptop",true,"good");
+		Order order1 = new Order(13,"mobile",true,"good");
+		Order order2 = new Order(14,"watch",true,"good");
+		
+		
+		
+	}
+
+}

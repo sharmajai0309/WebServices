@@ -1,0 +1,31 @@
+package com.example.demo;
+
+import java.math.BigDecimal;
+
+import java.util.List;
+
+import org.springframework.boot.SpringApplication;
+import org.springframework.boot.autoconfigure.SpringBootApplication;
+
+import Entity.Account;
+import Entity.Order;
+import Entity.Person;
+
+@SpringBootApplication
+public class WebServicesApplication {
+
+	public static void main(String[] args) {
+		SpringApplication.run(WebServicesApplication.class, args);
+		
+		Order order = new Order(12,"laptop",true,"good");
+		Order order1 = new Order(13,"mobile",true,"good");
+		Order order2 = new Order(14,"watch",true,"good");
+		Account account = new Account("1234567890", "HDFC",new BigDecimal(12345678));
+		
+		new Person("JAI","SHARMA","Sharmajai0309@gmail.com",new Date(),List.of(order,order1,order2),account);
+		
+		
+		
+	}
+
+}

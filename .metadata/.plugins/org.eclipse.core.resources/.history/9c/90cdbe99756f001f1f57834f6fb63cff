@@ -1,0 +1,13 @@
+package Entity;
+
+import lombok.Data;
+
+@Data
+public class Order {
+  
+	private int oid;	
+	private String name;
+	private boolean delivered;
+	private String desc;
+	
+}
