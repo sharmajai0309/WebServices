@@ -1,1 +1,0 @@
-{"firstName":"Sachin","lastName":"Sharma","email":"@gmail.com","birthDate":1725978927751,"orders":[{"id":12,"productName":"laptop","feedback":"good","delivered":true},{"id":13,"productName":"mobile","feedback":"good","delivered":true},{"id":14,"productName":"watch","feedback":"good","delivered":true}],"account":{"accountNumber":"1234567890","bankName":"HDFC","balance":12345678}}

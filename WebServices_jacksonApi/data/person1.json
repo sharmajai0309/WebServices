@@ -1,0 +1,27 @@
+{
+  "Person": {
+    "firstName": "Sachin",
+    "lastName": "Sharma",
+    "email": "test@gmail.com",
+    "birthDate": "2023-09-10T00:00:00Z",
+    "orders": [
+      {
+        "id": 12,
+        "productName": "laptop",
+        "delivered": true,
+        "feedback": "good"
+      },
+      {
+        "id": 13,
+        "productName": "mobile",
+        "delivered": true,
+        "feedback": "good"
+      }
+    ],
+    "account": {
+      "accountNumber": "1234567890",
+      "bankName": "HDFC",
+      "balance": 12345678
+    }
+  }
+}
